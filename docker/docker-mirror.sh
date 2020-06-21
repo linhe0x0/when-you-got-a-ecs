@@ -21,7 +21,7 @@ lsb_dist=""
 
 if [ -z "$1" ]
 then
-  MIRROR_URL="https://dockerhub.azk8s.cn"
+  MIRROR_URL="https://hub-mirror.c.163.com"
 fi
 
 info "Docker mirror will be set to ${MIRROR_URL}"
